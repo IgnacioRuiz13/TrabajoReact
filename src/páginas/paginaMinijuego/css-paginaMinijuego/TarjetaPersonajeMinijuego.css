@@ -1,0 +1,78 @@
+.tarjetaMiniJuego {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.772);
+    border-radius: 10px;
+    color: rgb(36, 38, 85);
+    display: grid;
+    grid-template-areas: 
+    'img'
+    'texto'
+    'texto'
+    'boton';
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(36, 38, 85, 0.5); 
+    transition: all 0.3s ease; 
+    width: 350px;
+} 
+
+.tarjetaMiniJuego:hover {
+    background-color:  white;
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    text-shadow: 2px 2px 4px rgba(36, 38, 85, 0.5);
+    font-weight: bold;
+}
+
+.boton-minijuego {
+    margin: 0 10px; 
+    background-color: rgb(36, 38, 85) ;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 92px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.boton-minijuego:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(197, 244, 102);
+    color: rgb(36, 38, 85);
+}
+
+.imagen-minijuego {
+    grid-area: img;
+    border-radius: 10px 10px 0px 0px;
+    width: 350px;
+}
+
+
+.tarjetaMiniJuego.correcto {
+    background-color: rgb(190, 255, 132); 
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    60% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.tarjetaMiniJuego.incorrecto {
+    background-color: rgb(243, 170, 170); 
+    animation: shake 0.5s ease;
+}
+
+
+
+

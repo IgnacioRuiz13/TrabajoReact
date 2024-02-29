@@ -1,0 +1,31 @@
+@import 'typeface-jost';
+
+.boton-menu {
+  background-color: #bAde79;
+  color: #1f1e46;
+  font-weight: 400;
+  height: 52px;
+  width: 210px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  
+  animation: girar-izq 15s linear infinite;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+
+  cursor: pointer;
+}
+
+@keyframes girar-izq {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+

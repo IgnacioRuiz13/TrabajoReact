@@ -1,0 +1,37 @@
+.titulo-pagina-personajes {
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contenedormain {
+    column-gap: 20px; 
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    color: white;
+}
+
+.contenedormain div {
+    margin-bottom: 20px; 
+} 
+
+.filtros-personajes {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.filtros-personajes select {
+    height: 25px;
+    border-radius: 10px; 
+}
+
+.buscadorGenero {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.buscadorEspecie {
+    margin-left: 10px;
+}
+

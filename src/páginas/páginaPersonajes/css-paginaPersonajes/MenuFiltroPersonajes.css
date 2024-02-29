@@ -1,0 +1,12 @@
+.filtros-personajes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.buscadorGenero {
+    margin-right: 20px;
+}
+
+.buscadorEspecie {
+    margin-left: 20px;
+}

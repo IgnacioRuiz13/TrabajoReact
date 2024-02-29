@@ -1,0 +1,25 @@
+.episodio-recomendado {
+    color: white;
+}
+
+.imagen-cabecera {
+    width: 700px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contenedor-pagina-principal {
+    color: white;
+    text-align: center;
+  }
+
+
+.agradecimientos {
+    margin-top: 40px;
+    padding-top: 100px;
+}
+
+.imagen-agradecimientos {
+    width: 200px;
+}

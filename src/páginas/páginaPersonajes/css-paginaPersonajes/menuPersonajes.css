@@ -1,0 +1,36 @@
+.contenedor-menu-localizaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contenedor-menu-localizaciones p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #242655;
+}
+
+.boton-menu-paginas {
+    margin: 0 10px; 
+    background-color: #242655 ;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.boton-menu-paginas:hover {
+    background-color:  #a1cd34;
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}

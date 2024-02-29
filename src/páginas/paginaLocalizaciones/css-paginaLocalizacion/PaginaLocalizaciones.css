@@ -1,0 +1,12 @@
+.titulo-pagina-localizacion {
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contenedor-localizaciones {
+    column-gap: 20px; 
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}

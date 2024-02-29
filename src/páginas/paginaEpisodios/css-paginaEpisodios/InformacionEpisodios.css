@@ -1,0 +1,74 @@
+.contenedor-informacion-episodios {
+    background-color: rgba(255, 255, 255, 0.772);
+    padding: 40px 200px 40px 100px;
+    border-radius: 40px;
+    margin-top: 40px;
+    color: white;
+}
+
+.contenedor-informacion-episodios h2 {
+    color: rgb(36, 38, 85);
+    margin-top: 50px;
+  
+}
+
+.contenedor-informacion-episodios h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(36, 38, 85, 0.5);
+}
+
+.contenedor-informacion-episodios p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.contenedor-informacion-episodios span {
+    font-size: 17px;
+    font-weight: bold;
+    color:rgba(36, 38, 85, 0.7);
+}
+.personajes-episodio {
+    display: flex;
+    align-items: center;
+    
+}
+
+.personajes-episodio p {
+    margin-right: 100px;
+    color: rgba(36, 38, 85, 0.731);
+    font-weight: bold;
+}
+
+.enlace-personajes {
+    text-decoration-color:rgba(36, 38, 85) ;
+}
+
+.boton-volver-informacion-episodios {
+
+    background-color: rgb(36, 38, 85) ;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+    margin-left: 50px;
+}
+
+.boton-volver-informacion-episodios:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.boton-h1-episodios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

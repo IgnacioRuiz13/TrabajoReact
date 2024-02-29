@@ -1,0 +1,44 @@
+.titulo-pagina-minijuego {
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.h3-minujuego {
+    color: white;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.contenedor-texto-minijuego {
+    margin-bottom: 20px;
+   
+}
+
+.boton-recargar {
+    margin: 0 10px; 
+    background-color: rgba(197, 244, 102, 0.717) ;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 92px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.boton-recargar:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(197, 244, 102);
+    color: rgb(36, 38, 85);
+}
